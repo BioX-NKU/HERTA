@@ -1,0 +1,22 @@
+name: pycistopic
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11.8
+  - pip=25.2
+  - setuptools<81
+  - bedtools=2.31.1
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scipy=1.15.2
+  - scikit-learn=1.7.2
+  - tqdm=4.67.3
+  - pycistarget=1.1
+  - pycistopic=2.0a
+  - pyscenic=0.12.1
+  - scenicplus=1.0a2
+  - pip:
+      - lda
+      - bs4
+      - multiprocessing-on-dill
